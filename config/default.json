@@ -1,0 +1,8 @@
+{
+  "serverPort": 5000,
+  "dbUrl1": "mongodb+srv://zer13:zzz123@cloud.dl8ic.mongodb.net/cloud?retryWrites=true&w=majority",
+  "dbUrl": "mongodb+srv://andy00freelance:zzz123@cloud.jngtzb4.mongodb.net/cloud?retryWrites=true&w=majority",
+  "secretKey": "mern-secret-key",
+  "filePath": "D:\\web\\ReactProject\\cloud\\server\\files",
+  "staticPath": "D:\\web\\ReactProject\\cloud\\server\\static"
+}
