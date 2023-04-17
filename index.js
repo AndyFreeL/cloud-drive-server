@@ -10,7 +10,7 @@ const filePathMiddleware = require('./middleware/filepath.middleware')
 const path = require('path')
 const cors = require('cors')
 
-app.use(cors)
+app.use(cors())
 app.use(filePathMiddleware(path.resolve(__dirname, 'files')))
 app.use(fileUpload({}))
 app.use(express.json())
