@@ -21,7 +21,7 @@ app.use('/api/files', fileRouter)
 const start = async () => {
 
   try {
-    await mongoose.connect(config.get("dbUrl"), {useNewUrlParser:true,useUnifiedTopology: true})
+    await mongoose.connect(config.get("dbUrl"), {useNewUrlParser:true,useCreateIndex: true, useUnifiedTopology: true})
 
     app.listen(PORT, () => {
       console.log('Server is running', PORT)
